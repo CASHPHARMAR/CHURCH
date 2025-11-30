@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram, Youtube, Mail, MapPin, Phone } from 'lucide-react';
+import { FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -15,11 +16,14 @@ const Footer = () => {
                             Empowered by Spirit. United in Purpose. A vibrant, Spirit-filled Christian community rooted in the Pentecostal tradition.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-secondary hover:text-white transition-all duration-300">
+                            <a href="https://www.facebook.com/profile.php?id=61582560673037" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-secondary hover:text-white transition-all duration-300">
                                 <Facebook size={20} />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-secondary hover:text-white transition-all duration-300">
+                            <a href="https://instagram.com/upper_room?igsh=aGFwNXJ6Nmo5MGZi" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-secondary hover:text-white transition-all duration-300">
                                 <Instagram size={20} />
+                            </a>
+                            <a href="https://www.tiktok.com/@upper_room.ag?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-secondary hover:text-white transition-all duration-300">
+                                <FaTiktok size={20} />
                             </a>
                             <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-secondary hover:text-white transition-all duration-300">
                                 <Youtube size={20} />
